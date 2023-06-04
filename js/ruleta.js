@@ -31,8 +31,12 @@ const array_concursantes = [
   "img/dinamo.png",
   "img/tote.png",
 ];
+
+
 let canvas = document.getElementById("idcanvas");
 let context = canvas.getContext("2d");
+canvas.width = canvas.offsetWidth;
+canvas.height = canvas.offsetHeight;
 let center = canvas.width / 2;
 
 function drawRedNeedle(context, center, radius, rotation) {
