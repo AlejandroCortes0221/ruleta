@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/champions.png) no-repeat center / cover;
+}
+
+.contenedor {
+    width: 45%;
+    max-width: calc(100% - 20px);
+    margin: auto;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+.concursantes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+canvas {
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+button {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #bf780f;
+    color: #fff;
+    border-style: none;
+    z-index: 10;
+    cursor: pointer;
+}

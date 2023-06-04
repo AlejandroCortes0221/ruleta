@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sorteo</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/ruleta.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="concursantes">
+			<canvas id="idcanvas" width="530" height="530"></canvas>
+			<br>
+			<div class="boton__equipo">
+				<button onclick="sortear()"><span id="idestado">Sortear</span></button>
+			    <div class="mark-winner"></div>
+			    <div id="imageDiv"></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/ruleta.js"></script>
+</body>
+</html>
